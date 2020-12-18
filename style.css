@@ -1,1 +1,75 @@
+.welcome {
+     text-align: center;
+     padding: 50px;
+     margin: auto; 
+     margin-top: 75px;
+     width: 400px;
+     background-color: #7ba7ed;
+}
 
+.welcome:hover {
+    transform: scale(1.05);
+    transition: 2s;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin: auto;
+    margin-top:30px;
+    width: 800px;
+   
+}
+
+.row1-projects {
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    width: 300px;
+    background-color: lightgreen;
+}
+.row1-otherProject {
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    width: 300px;
+    background-color: #ba5ed6;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    padding-top: 0px;
+    margin: auto;
+    margin-top:0px;
+    width: 800px;
+    
+}
+
+.row2-projects {
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    width: 300px;
+    background-color: #f2c67e;
+}
+
+.row2-otherProject {
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    width: 300px;
+    background-color: #f27474;
+}
+
+.contactMe {
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    margin-top:0px;
+    width: 1000px;
+    background-color: #e3ed26;
+}
